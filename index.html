@@ -3,89 +3,121 @@
 
 <head>
   <link rel="stylesheet" href="css-reset.css" />
+  <link rel="stylesheet" href="common.css" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 
-
-<heder>
-  <div class="bar">
-    <img src="./assets/Logo.png" class="logo">
-    <ul class="menu">
-      <li><a href="#">Courses</a></li>
-      <li><a href="#">Careers</a></li>
-      <li><a href="#">About us</a></li>
-      <li><a href="#">Contact us</a></li>
-    </ul>
-  </div>
-</heder>
-
 <body>
-  <div class="article">
-    <div class="latest-updates">
-      <h3>Latest updates</h3>
-    </div>
-
-    <div class="container-left">
-      <div class="subtitle">Design system</div>
-      <div class="small-title">How do you handle component spacing in a design system?</div>
-      <div class="text">Say you’ve got a <b> &lt;Card /&gt;</b>
-        component. It’s highly likely it shouldn’t be butted right up against any other components with no
-        spacing around it. That’s true for… pretty much every component. So, how do you handle component spacing in
-        a design system?
+  <div id="main-container">
+    <header>
+      <div class="bar">
+        <img src="./assets/Logo.png" class="logo">
+        <div class="menu">
+          <a href="#">Courses</a>
+          <a href="#">Careers</a>
+          <a href="#">About us</a>
+          <a href="#">Contact us</a>
+        </div>
       </div>
-      <button class="button read-this">Read this</button>
-      <hr / class="hr">
-      <div>
-        <img src="./assets/laptop.png" class="laptop">
+    </header>
+
+    <div class="article">
+      <div class="article-title">
+        <h3>Latest updates</h3>
       </div>
-      <div class="subtitle">frontend</div>
-      <div class="small-title">How to Favicon in 2022: Six files that fit most needs</div>
-      <div class="text">Editor’s note: With the arrival of the new year, this post has been slightly modified to
-        reflect the fact that this content is still relevant!</div>
-    </div>
-    <div class="container-center">
-      <img src="./assets/code.png" class="code">
-    </div>
+      <div class="containers">
+        <div class="container-left">
+          <div class="small-title default-spacing">Design system</div>
 
-    <div class="container-right">
-      <div class="subtitle">Web & Mobile Development</div>
-      <div class="small-title">Building an adaptive favicon</div>
-      <div class="text">A custom favicon is a great way to polish a web project. It displays on desktop browser tabs,
-        and also inside "save for later" readers, other blog posts linking to your site, and more. Traditionally this
-        has been done with the .ico file type, but recently browsers have allowed use of SVG, a vector format.
+          <h2 class="default-spacing">How do you handle component spacing in a design system?</h2>
+          <p class="default-spacing">Say you’ve got a <b> &lt;Card /&gt;</b>
+            component. It’s highly likely it shouldn’t be butted right up against any other components with no
+            spacing around it. That’s true for… pretty much every component. So, how do you handle component spacing in
+            a design system?
+          </p>
+          <button>Read this</button>
+          <hr / class="hr">
+          <div>
+            <img src="./assets/laptop.png" class="laptop default-spacing">
+          </div>
+          <div class="small-title default-spacing">frontend</div>
+          <h2 class="default-spacing">How to Favicon in 2022: Six files that fit most needs</h2>
+          <p class="default-spacing">Editor’s note: With the arrival of the new year, this post has been slightly
+            modified
+            to
+            reflect the fact that this content is still relevant!
+          </p>
+        </div>
+        <div class="container-center"><img src="./assets/code.png" class="code default-spacing">
+          <div class="small-title default-spacing">Colors</div>
+          <h2 class="default-spacing">A whistle-stop tour of 4 new CSS color features</h2>
+          <p class="default-spacing">I was just writing in my<a href="#"> “What’s new in since CSS3?” </a>article about
+            recent and
+            possible
+            future changes to CSS colors. It’s weirdly a lot. There are just as many or more new and upcoming ways to
+            define
+            colors than what we have now. I thought we’d take a really quick look.
+          <div class="braek"></div>
+
+          <p> First, a major heads up. This stuff is so complicated. I barely understand it. But here are some aspects:
+          </p>
+          <div class="braek"></div>
+          <ul>
+
+            <li> Before all this upcoming change, we only had RGB as a color model, and everything dealt with that.</li>
+            <li>We had different “color spaces” that handled it differently (e.g. the rgb() function mapped that RGB
+              color
+              model
+              as a cube with linear coordinates, the hsl() function mapped that RGB color model as a cylinder) but it
+              was
+              all
+              sRGB gamut.</li>
+            <li> With the upcoming changes, we’re getting new color models and (!) we’re getting new functions that map
+              that
+              color model differently. So I think it’s kind of a double-triple whammy.</li>
+
+          </ul>
+          </p>
+          <hr / class="hr">
+          <div class="small-title default-spacing">subscription</div>
+          <h2 class="default-spacing">Stay tuned & get new updates</h2>
+          <p class="default-spacing">If you'd like to know when we release additional results or announce next year's
+            edition, just leave us your email below</p>
+          <button>subscribe</button>
+        </div>
+        <div class="container-right">
+          <div class="small-title default-spacing">Web & Mobile Development</div>
+          <h2 class="default-spacing">Building an adaptive favicon</h2>
+          <p class="default-spacing">A custom <a href="#">favicon</a> is a great way to polish a web project. It
+            displays on desktop
+            browser
+            tabs,
+            and also inside "save for later" readers, other blog posts linking to your site, and more. Traditionally
+            this
+            has been done with the .ico file type, but recently browsers have allowed use of <a href="#">SVG</a>, a
+            vector format.
+          </p>
+          <hr / class="hr">
+          <img src="./assets/careers.png" class="careers-img default-spacing">
+          <div class="small-title default-spacing">careers</div>
+          <h2 class="default-spacing">Looking for you!</h2>
+          <p class="default-spacing">As part of your role, you will have the opportunity to develop from scratch,
+            working closely with the product, design, and QA teams to deliver the best product.
+            <br>
+            This is a great opportunity to join us and grow with other team members.
+          <div class="braek"></div>
+
+          <p> Send CV to <a href="#">Jobsil@abra-it.com</a></p>
+          </p>
+
+        </div>
       </div>
-
     </div>
-
-
-
 
 
 
 
   </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  </div>
-
-
-
-
-
 </body>
 
 </html>

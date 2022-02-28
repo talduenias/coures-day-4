@@ -1,137 +1,81 @@
 
+#main-container{
+  min-width: 1920px;
+  max-width: 1920px;
+margin-right: auto;
+margin-left:auto;
 
+
+}
 
 .bar{
+  position: relative;
   width: 1920px;
   height: 128px;
-  background-color: #0e1649;
-  padding-left: 64px;
-  margin:0 auto;
- 
- 
+  padding-top:32px;
+  background-color: var(--praimary-color);
 }
 
 .logo{
+  margin-left:64px;
   display:inline-block;
-  
-  padding-top: 32px;
-
-
 }
 
 .menu{
-  display:inline-block;
-  margin-right:64px;
- margin-bottom: 32px;
- margin-left:983px;
+  position: absolute;
+  top:32px;
+  right:64px;
+  padding:16px 16px;
 }
 
-.menu li{
-  display: inline-block;
-  color:white;
-  font-family: Assistant;
-  font-size : 24px;
-  padding:16px 16px;
- 
-}
 
 .menu a {
   color:#fff;
   text-decoration: none;
   text-align: right;
+  color:white;
+  font-family: Assistant;
+  font-size : 24px;
+  padding:16px 16px;
+  margin-left:24px;
 
 }
 
 .article{
-  
-  width: 1792px;
   height: 1629px;
-  margin:0 auto;}
-
-.latest-updates h3{
-
-  margin-top: 64px;
-  font-family: Courier New;
-  font-size: 24px;
-  font-weight: bold;
-  letter-spacing: -0.48px;
-  color: #0e1649;
+  margin:0 auto;
+  padding-left:64px;
+  padding-right:64px;
 }
+
 
 
 
 .container-left{
  display: inline-block;
-  /*width:430px;*/
- /* height: 322px;*/
- width: 25%;
-  gap: 40px;
+ min-height: 430px;
   max-width: 430px;
-
-  padding: 0;
-
-}
-
-.subtitle{
-
-  font-family: Arial;
-  font-size: 16px;
-  line-height: 1.69;
-  text-align: left;
-  color: #1c1c1c;
-  text-transform: uppercase;
-  margin-top:64px;
-}
-
-.small-title{
-margin-top:16px;
-margin-bottom: 16px;
-  font-family: Arial;
-  font-size: 24px;
-  font-weight: bold;
-  letter-spacing: 0.48px;
-  text-align: left;
-  color: #1c1c1c;
-  text-transform:capitalize;
-}
-
-.text{
-  font-family: Arial;
-  font-size: 18px;
-  line-height: 1.5;
-  text-align: left;
-  color: #1c1c1c;
-}
-
-.button{
-  width: 158px;
-  height: 56px;
-  padding: 16px 32px;
-  border-radius: 12px;
-  background-color: #ff9f00;
-  border:none;
-  margin-top:16px;
-  color:#fff;
-  font-family: Assistant;
-  font-size: 18px;
-  font-weight: bold;
-  text-transform: uppercase;
+  padding-right: 24px;
 
 }
 
-.hr{
-  margin:40px 0;
-}
+
 
 .container-center{
 display:inline-block;
-width: 50%;
-
+vertical-align: top;
+max-width: 884px;
+min-width: 884px;
+text-align: top;
+}
 
 .code{
-
-
+  display:inline-block;
+  vertical-align: top;
+  width: 884px;
+  height: 442px;
 }
+
 
 
 
@@ -139,7 +83,26 @@ width: 50%;
   display: inline-block;
   width: 25%;
  
-
-
 }
+
+.braek{
+  margin-bottom:40px;
+}
+
+.container-right{
+  display: inline-block;
+  vertical-align: top;
+  min-height: 430px;
+   max-width: 430px;
+   padding-left: 24px;
+ 
+ }
+
+ .career-img{
+   width: 430px;
+   height: 430px;
+ }
+
+
+
 
